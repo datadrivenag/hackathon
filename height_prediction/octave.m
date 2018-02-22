@@ -89,3 +89,23 @@ end
 fprintf('mean mean absolute error: %0.2f cm\n', mean(maes));
 fprintf('rank correlation: %0.2f \n', ...
         corr(target_heights, predicted_heights, 'type', 'spearman'));
+
+% load kinship
+genotypes = ...
+    csvread(sprintf('%s/field_genotypes.csv', data_directory), 1, 3);
+
+normalized_kinship = ...
+    csvread(sprintf('%s/normalized_kinship.csv', data_directory), 1, 1);
+
+centered_kinship = ...
+    csvread(sprintf('%s/centered_kinship.csv', data_directory), 1, 1);
+
+% extract subset of data with kinship information
+subset = (~isnan(genotypes));
+with_kinship = data(subset, :);
+
+field_centered_kinship = ...
+    centered_kinship(genotypes(subset), genotypes(subset));
+
+field_normalized_kinship = ...
+    normalized_kinship(genotypes(subset), genotypes(subset));
