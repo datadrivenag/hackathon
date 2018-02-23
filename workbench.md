@@ -4,6 +4,9 @@
 
 The Workbench system is intended to provide web-based access to pre-configured data and software for the DataDrivenAg hackathon.
 
+### System requirements
+The Workbench system can be used on systems with most modern browsers. 
+
 ### Architecture
 Workbench allows users to launch pre-defined Docker containers in a Kubernetes cluster with shared storage mounted via NFS.
 
