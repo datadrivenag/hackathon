@@ -13,4 +13,7 @@ The Workbench system is intended to provide web-based access to pre-configured d
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=eUTT-VL1LGQ" target="_blank"><img src="http://img.youtube.com/vi/eUTT-VL1LGQ/0.jpg"  alt="Using Workbench" width="240" height="180" border="10" /></a>
 
+## Communication
+* Slack: https://datadrivenag.slack.com
+
 
