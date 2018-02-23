@@ -10,6 +10,7 @@ Tutorial materials are provided for the following:
 
 ## Workbench
 The Workbench system is intended to provide web-based access to pre-configured data and software for the DataDrivenAg hackathon. For more information about accessing and using workbench, see the [Quickstart Guide](workbench.md) or the following brief video:
+
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=eUTT-VL1LGQ" target="_blank"><img src="http://img.youtube.com/vi/eUTT-VL1LGQ/0.jpg"  alt="Using Workbench" width="240" height="180" border="10" /></a>
 
 
