@@ -38,7 +38,13 @@ Directory | Coverage | Description
 ### Geoserver
 A geoserver instance is available to access a subset of the some data:
 
-URL: `http://geoserver.workshop1.nationaldataservice.org/geoserver`
+Connection information:
+Service | URL
+--- | ---
+WMS | http://geoserver.workshop1.nationaldataservice.org/geoserver/wms?tiled=true
+WCS | http://geoserver.workshop1.nationaldataservice.org/geoserver/wcs
+WFS | http://geoserver.workshop1.nationaldataservice.org/geoserver/wfs
+
 
 What's available:
 WMS:
