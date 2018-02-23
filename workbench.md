@@ -33,6 +33,7 @@ Directory | Coverage | Description
 `laser3d_mergedlas`| 6/20-6/21/2017 | 
 `rgb_geotiff`| 6/20-6/21/2017 | Full-resolution data from the RGB (stereoTop) camera
 `vnir_netcdf`| 6/18/2017 |  Sample of hyperspectral data from the VNIR sensor
+`uav` | 5/24, 6/6, 7/21 | Sample of RedEdgeand Sequoia UAV fullfield images
 
 ### Geoserver
 A geoserver instance is available to access a subset of the some data:
