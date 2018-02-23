@@ -35,6 +35,8 @@ Directory | Coverage | Description
 `vnir_netcdf`| 6/18/2017 |  Sample of hyperspectral data from the VNIR sensor
 `uav` | 5/24, 6/6, 7/21 | Sample of RedEdgeand Sequoia UAV fullfield images
 
+The data is mounted under `/data` in all Workbench applications or available via https://data.workshop1.nationaldataservice.org (note: some files are very large).
+
 ### Geoserver
 A geoserver instance is available to access a subset of the some data:
 
