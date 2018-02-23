@@ -13,32 +13,33 @@ Each user has a quota of 2 cores and 8GB RAM and 10GB of storage in their `home`
 ### Applications
 
 * Cloud9 IDE with gcc, Java, Octave and Python including netCDF and GDAL utilities
-* Jupyter SciPy environment with Python and Octave kernels including netCDF and GDAL utilities
+* Jupyter SciPy environment with Python and Octave kernels including netCDF, GDAL, cartopy, and rasterio.
 * RStudio Geospatial environment
-* PostgreSQL studio
+* PostgreSQL studio for accessing the BETYdb Postgres database
 * Xpra-based OpenBox minimal Linux desktop with QGIS and Panopoly
 
 ### Sample data
 
-TERRA-REF sample data is mounted under `/data/terraref/sites/ua-mac/Level_1`:
+TERRA-REF sample data is mounted under `/data/terraref/sites/ua-mac/Level_1` in any running application:
 
 Directory | Coverage | Description 
 --- | --- | ---
 `envlog_netcdf` | 6/20-6/21/2017 | PAR, CO2, Skye PRI, Clima Weather station 
-`fullfield`|  Varied | Thumbnail RGB and IR full-field images. 50% resolution for 6/20/2017 
-`ir_geotiff`| 6/20-6/21/2017 |  
+`fullfield`|  Varied | Thumbnail RGB and IR full-field images. 50% resolution onlyfor 6/20/2017 
+`ir_geotiff`| 6/20-6/21/2017 |  Full-resolution data from the FLIR camera
 `laser3d_mergedlas`| 6/20-6/21/2017 | 
-`rgb_geotiff`| 6/20-6/21/2017 | 
-`vnir_netcdf`| 6/18/2017 |  
+`rgb_geotiff`| 6/20-6/21/2017 | Full-resolution data from the RGB (stereoTop) camera
+`vnir_netcdf`| 6/18/2017 |  Sample of hyperspectral data from the VNIR sensor
 
 ### Geoserver
-A geoserver instance is available to access some sample data:
+A geoserver instance is available to access a subset of the some data:
 
-URL: `http://geoserver.workshop1.nationaldataservice.org`
+URL: `http://geoserver.workshop1.nationaldataservice.org/geoserver`
 
 What's available:
 WMS:
-* RGB fullfield GeoTiffs
+* 2% resolution RGB fullfield GeoTiffs
+* 50% resolution RGB GeoTiff for 6/20/2017
 
 WCS:
 * IR and UAV fullfield GeoTiffs
