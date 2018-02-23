@@ -14,7 +14,7 @@ Each user has a quota of 2 cores and 8GB RAM and 10GB of storage in their `home`
 
 * Cloud9 IDE with gcc, Java, Octave and Python including netCDF and GDAL utilities
 * Jupyter SciPy environment with Python and Octave kernels including netCDF, GDAL, cartopy, and rasterio.
-* RStudio Geospatial environment
+* [RStudio Geospatial](https://github.com/rocker-org/geospatial) environment
 * PostgreSQL studio for accessing the BETYdb Postgres database
 * Xpra-based OpenBox minimal Linux desktop with QGIS and Panopoly
 
