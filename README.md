@@ -16,4 +16,5 @@ The Workbench system is intended to provide web-based access to pre-configured d
 ## Communication
 * Slack: https://datadrivenag.slack.com
 
-
+## Github
+We encourage you to share the results of your work with the community through this Github organization. 
