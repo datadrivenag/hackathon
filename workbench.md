@@ -58,3 +58,9 @@ WCS:
 
 WFS:
 * TERRA-REF Season 4 plot boundaries (i.e., BETYdb "sites" table)
+
+
+### Visualization tools (Xpra)
+The "Visualization Tools" application provides a no-frills Linux remote desktop environment to use desktop applications such as QGIS and Panopoly.  This is based on the OpenBox Linux distribution.  All applications are launched via xterm and accessed via the Xpra HTML5 client.  While this is in some ways convenient, there are many limitations (such as inability to copy-paste). The following video demonstrates how to launch QGIS via the browser and load sample GeoTIFFs.
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=6UYWpS9lzxs" target="_blank"><img src="http://img.youtube.com/vi/6UYWpS9lzxs/0.jpg"  alt="Using Workbench" width="240" height="180" border="10" /></a>
