@@ -1,0 +1,1 @@
+This directory contains a height prediction sample Octave code and Jupyter notebook. The Workbench system contains a Jupyter environment with Octave kernel and Gaussian process toolkit installed. <a href="https://www.workshop1.nationaldataservice.org/dashboard/home/?quickstart=jupyterterra">Run Jupyter in Workbench</a> to explore the example notebook or script. 
