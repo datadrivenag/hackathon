@@ -7,7 +7,7 @@ The Workbench system is intended to provide web-based access to pre-configured d
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=eUTT-VL1LGQ" target="_blank"><img src="http://img.youtube.com/vi/eUTT-VL1LGQ/0.jpg"  alt="Using Workbench" width="240" height="180" border="10" /></a>
 
 ### System requirements
-The Workbench system can be used on systems with most modern browsers. 
+The Workbench system can be used on systems with most modern browsers. We are also providing a basic Geoserver installation for use with remote clients such as QGIS.
 
 ### Architecture
 Workbench allows users to launch pre-defined Docker containers in a Kubernetes cluster with shared storage mounted via NFS.
@@ -16,6 +16,8 @@ Workbench allows users to launch pre-defined Docker containers in a Kubernetes c
 Each user has a quota of 2 cores and 8GB RAM and 10GB of storage in their `home` directory.
 
 ### Applications
+
+For details about each application, see the sections below:
 
 * Cloud9 IDE with gcc, Java, Octave and Python including netCDF and GDAL utilities
 * Jupyter SciPy environment with Python and Octave kernels including netCDF, GDAL, cartopy, and rasterio.
