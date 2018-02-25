@@ -92,9 +92,6 @@ Cloud9 provides a file browser, editor and terminal. It includes basic environme
 
 Jupyter provides a framework for the creation of Notebooks.  The DataDrivenAg environment includes geospatial and netcdf libraries along with both Python Octave kernels. See [what's installed](https://github.com/craig-willis/toolserver-dockerfiles/blob/datadrivenag/jupyter/Dockerfile). 
 
-### Globus Connect
-Provides basic Globus personal capability in Workbench.  Before starting the application, make sure to set the `SETUP_KEY` value via the config page to a [new personal endpoint setup key](https://www.globus.org/app/endpoints/create-gcp).  After starting the app, you will be able to transfer data into your Workspace via Globus.
-
 ### PostgresSQL Studio
 PostgresSQL Studio provides basic web-based access to Postgres database. This is provided for access to the integrated BETYdb.  To connect to BETYdb, use host `bety.default` with username, password and database `bety`.
 
