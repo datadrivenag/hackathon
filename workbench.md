@@ -1,6 +1,6 @@
 ## Using Workbench
 
-### Overview
+## Overview
 
 The Workbench system is intended to provide web-based access to pre-configured data and software for the DataDrivenAg hackathon.
 
@@ -21,8 +21,11 @@ Each user has a quota of 2 cores and 8GB RAM and 10GB of storage in their `home`
 * PostgreSQL studio for accessing the BETYdb Postgres database
 * Xpra-based OpenBox minimal Linux desktop with QGIS and Panopoly
 
-### Sample data
+## Sample data
 
+This section describes the sample data available via the Workbench system and Geoserver.
+
+### Shared filesystem
 TERRA-REF sample data is mounted under `/data/terraref/sites/ua-mac/Level_1` in any running application:
 
 Directory | Coverage | Description 
@@ -48,7 +51,6 @@ WMS | http://geoserver.workshop1.nationaldataservice.org/geoserver/wms?tiled=tru
 WCS | http://geoserver.workshop1.nationaldataservice.org/geoserver/wcs
 WFS | http://geoserver.workshop1.nationaldataservice.org/geoserver/wfs
 
-
 What's available:
 WMS:
 * 2% resolution RGB fullfield GeoTiffs
@@ -61,11 +63,6 @@ WFS:
 * TERRA-REF Season 4 plot boundaries (i.e., BETYdb "sites" table)
 
 
-### Visualization tools (Xpra)
-The "Visualization Tools" application provides a no-frills Linux remote desktop environment to use desktop applications such as QGIS and Panopoly.  This is based on the OpenBox Linux distribution.  All applications are launched via xterm and accessed via the Xpra HTML5 client.  While this is in some ways convenient, there are many limitations (such as slow click response and inability to copy-paste). However, it can be convenient when you have no other alternative. The following video demonstrates how to launch QGIS via the browser and load sample GeoTIFFs.
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=6UYWpS9lzxs" target="_blank"><img src="http://img.youtube.com/vi/6UYWpS9lzxs/0.jpg"  alt="Using Workbench" width="240" height="180" border="10" /></a>
-
 ### BETYdb
 The TERRA-REF system uses [BETYdb](https://terraref.gitbooks.io/terraref-documentation/content/user/using-betydb.html) to manage and provide access phenotype and agronomic data, including plot locations and other geolocations of interest (e.g. fields, rows, plants).  The primary BETYdb instance is accessible via web and API at https://terraref.ncsa.illinois.edu/bety/.  A snapshot of the underlying PostGIS database is available internally to the Workbench system and accessible using the PostgresSQL application or your favorite Postgres driver:
 
@@ -76,6 +73,33 @@ The TERRA-REF system uses [BETYdb](https://terraref.gitbooks.io/terraref-documen
 * Password: bety
 
 Information about the database schema is available in the [TERRA-REF BETYdb documentation](https://terraref.ncsa.illinois.edu/bety/schemas).  Note that the season for plot boundaries exposed via WFS (above) are contained in the `sites` table.
+
+
+
+## Applications
+
+This section describes the applications available via Workbench.
+
+### Cloud9
+
+### Jupyter
+
+### Jupyter
+
+### Globus Connect
+
+### PostgresSQL Studio
+
+### RStudio Server 
+
+
+### Visualization tools (Xpra)
+The "Visualization Tools" application provides a no-frills Linux remote desktop environment to use desktop applications such as QGIS and Panopoly.  This is based on the OpenBox Linux distribution.  All applications are launched via xterm and accessed via the Xpra HTML5 client.  While this is in some ways convenient, there are many limitations (such as slow click response and inability to copy-paste). However, it can be convenient when you have no other alternative. The following video demonstrates how to launch QGIS via the browser and load sample GeoTIFFs.
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=6UYWpS9lzxs" target="_blank"><img src="http://img.youtube.com/vi/6UYWpS9lzxs/0.jpg"  alt="Using Workbench" width="240" height="180" border="10" /></a>
+
+## Other services
+
 
 
 
