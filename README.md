@@ -2,7 +2,7 @@
 
 <img src="images/datadrivenag_logo.png" height=80><img src="images/usda_centered_300.jpg" height=80>
 
-This repository contains tutorial and other material for the 2018 [Data Driven Ag](https://www.datadrivenag.org) workshop.  This includes data; notebooks and sample code; along with instructions for accessing the [Workbench](https://www.workshop1.nationaldataservice.org) system for remote, interactive access to sample data.
+This repository contains tutorial and other material for the 2018 [Data Driven Ag](https://www.datadrivenag.org) workshop.  This includes data, notebooks/sample code, along with instructions for accessing the [Workbench](https://www.workshop1.nationaldataservice.org) system for remote, interactive access to sample data.
 
 ## Tutorials
 Tutorial materials are provided for the following:
