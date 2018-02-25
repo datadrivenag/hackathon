@@ -41,6 +41,7 @@ The data is mounted under `/data` in all Workbench applications or available via
 A geoserver instance is available to access a subset of the some data:
 
 Connection information:
+
 Service | URL
 --- | ---
 WMS | http://geoserver.workshop1.nationaldataservice.org/geoserver/wms?tiled=true
