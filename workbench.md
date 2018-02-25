@@ -74,6 +74,7 @@ The TERRA-REF system uses [BETYdb](https://terraref.gitbooks.io/terraref-documen
 * Username: bety
 * Password: bety
 
+Information about the database schema is available in the [TERRA-REF BETYdb documentation](https://terraref.ncsa.illinois.edu/bety/schemas).  Note that the season for plot boundaries exposed via WFS (above) are contained in the `sites` table.
 
 
 
