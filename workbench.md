@@ -82,24 +82,26 @@ This section describes the applications available via Workbench.
 
 ### Cloud9
 
-### Jupyter
+Cloud9 provides a file browser, editor and terminal. It includes basic environments for building using GCC, Java, Octave, and Python. See [what's installed](https://github.com/craig-willis/toolserver-dockerfiles/blob/datadrivenag/cloud9/Dockerfile). 
 
 ### Jupyter
+
+Jupyter provides a framework for the creation of Notebooks.  The DataDrivenAg environment includes geospatial and netcdf libraries along with both Python Octave kernels. See [what's installed](https://github.com/craig-willis/toolserver-dockerfiles/blob/datadrivenag/jupyter/Dockerfile). 
 
 ### Globus Connect
+Provides basic Globus personal capability in Workbench.  Before starting the application, make sure to set the `SETUP_KEY` value via the config page to a [new personal endpoint setup key](https://www.globus.org/app/endpoints/create-gcp).  After starting the app, you will be able to transfer data into your Workspace via Globus.
 
 ### PostgresSQL Studio
+PostgresSQL Studio provides basic web-based access to Postgres database. This is provided for access to the integrated BETYdb.  To connect to BETYdb, use host `bety.default` with username, password and database `bety`.
 
 ### RStudio Server 
+See [what's installed](https://github.com/craig-willis/toolserver-dockerfiles/blob/datadrivenag/rstudio/Dockerfile).
 
 
 ### Visualization tools (Xpra)
 The "Visualization Tools" application provides a no-frills Linux remote desktop environment to use desktop applications such as QGIS and Panopoly.  This is based on the OpenBox Linux distribution.  All applications are launched via xterm and accessed via the Xpra HTML5 client.  While this is in some ways convenient, there are many limitations (such as slow click response and inability to copy-paste). However, it can be convenient when you have no other alternative. The following video demonstrates how to launch QGIS via the browser and load sample GeoTIFFs.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=6UYWpS9lzxs" target="_blank"><img src="http://img.youtube.com/vi/6UYWpS9lzxs/0.jpg"  alt="Using Workbench" width="240" height="180" border="10" /></a>
-
-## Other services
-
 
 
 
