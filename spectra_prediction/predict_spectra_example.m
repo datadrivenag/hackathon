@@ -81,30 +81,22 @@ posterior_covariance = ...
 
 rng('default');
 
-% plot examples
-for i = 1:10
- ind = randi(size(spectra, 1));
+% plot example
+ind = randi(size(spectra, 1));
 
- figure(1);
- clf;
- plot(wavelengths, spectra(ind, :), ...
-      'color', [31, 120, 180] / 255);
- hold('on');
- plot(wavelengths(test_ind), ...
-      posterior_mean(spectra(ind, train_ind)), ...
-      'color', [227, 26, 28] / 255);
+figure(1);
+clf;
+plot(wavelengths, spectra(ind, :), ...
+     'color', [31, 120, 180] / 255);
+hold('on');
+plot(wavelengths(test_ind), ...
+     posterior_mean(spectra(ind, train_ind)), ...
+     'color', [227, 26, 28] / 255);
 
- ylim([0, 1.5]);
- xlim([250, 1850]);
+ylim([0, 1.5]);
+xlim([250, 1850]);
 
- xlabel('wavelength');
- ylabel('flux');
+xlabel('wavelength');
+ylabel('flux');
 
- set(gca, 'box', 'off', 'tickdir', 'out');
-
- matlab2tikz(sprintf('example_%i.tex', i), ...
-             'height', '\figureheight', ...
-             'width', '\figurewidth', ...
-             'parsestrings', false, ...
-             'showinfo', false);
-end
+set(gca, 'box', 'off', 'tickdir', 'out');
