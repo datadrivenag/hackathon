@@ -21,6 +21,7 @@ We are running a small Geoserver instance with sample data from the TERRA-REF pr
 
 ## Communication
 * Slack: https://datadrivenag.slack.com
+* Temporary [invitation](https://join.slack.com/t/datadrivenag/shared_invite/enQtMzE0NjU5ODE2NzA4LTUxOTg2ODc0M2U2NTg1YTg4MzUwYmNmY2M3MjYwMjY1NDFhNzA0ODYzYWU5MzFkYzZlNzhkN2YxM2EyZjkxMGM)
 
 ## Github
 We encourage you to share the results of your work with the community through this Github organization. 
