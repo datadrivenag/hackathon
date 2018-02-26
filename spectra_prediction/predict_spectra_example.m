@@ -56,7 +56,7 @@ train_ind = find(wavelengths <= 820);
 
 % was produced with
 % awk -F, '(NR > 3) {for (i = 9; i <= 158; i++) {printf $i " "} printf $159 "\n"}' 186_33.45_-111.98_tmy.csv > spectra
-load('spectra');
+load('data/spectra');
 
 % remove empty spectra
 spectra = spectra(sum(spectra, 2) > 0, :);
